@@ -1,0 +1,40 @@
+{
+  "symbols": {
+    "BTC": {
+      "start_price": 30000,
+      "stop_price": 50000,
+      "spot": {
+        "enabled": false,
+        "candle_timeframe": "4h",
+        "execution_source" : "low",
+        "spot_purchase_percent": 2,
+        "spot_candle_threshold": -6
+      },
+      "perp": {
+        "enabled": false,
+        "candle_timeframe": "4h",
+        "execution_source" : "low",
+        "perp_purchase_percent": 1,
+        "perp_candle_threshold": -8
+      }
+    },
+    "ETH": {
+      "start_price": 2000,
+      "stop_price": 2500,
+      "spot": {
+        "enabled": true,
+        "candle_timeframe": "4h",
+        "execution_source" : "low",
+        "spot_purchase_percent": 2,
+        "spot_candle_threshold": -6
+      },
+      "perp": {
+        "enabled": false,
+        "candle_timeframe": "4h",
+        "execution_source" : "low",
+        "perp_purchase_percent": 1,
+        "perp_candle_threshold": -8
+      }
+    }
+  }
+}
